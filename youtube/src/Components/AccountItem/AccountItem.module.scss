@@ -1,0 +1,18 @@
+.wrapper {
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+
+  .icon__search {
+    margin: 10px;
+  }
+
+  .title__search {
+    line-height: 40px;
+  }
+}

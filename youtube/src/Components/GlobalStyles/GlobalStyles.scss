@@ -1,0 +1,54 @@
+@import "normalize.css";
+@import url("https://use.typekit.net/nko5fvg.css");
+
+html {
+  overflow: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgba(254, 44, 85, 1);
+  --black: #000;
+  --white: #fff;
+  --textColor: #333;
+  --red: red;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--textColor);
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+}
+
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: var(--textColor);
+  font-size: 1.4rem;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button + button {
+  margin: 0 0 0 5px;
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 100%;
+  background-color: var(--white);
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+
+  + .wrapper {
+    margin-left: 8px;
+  }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 15px;
+  width: 9 0%;
+  display: flex;
+}
+
+.title {
+  width: 96%;
+  display: flex;
+}
+
+.iconsub {
+  padding-left: 10px;
+}
+
+.primary {
+  color: #065fd4;
+  padding: 8px 20px 0 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 11px;
+
+  &:hover {
+    background-color: #dcf1f3;
+  }
+}

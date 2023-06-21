@@ -1,0 +1,74 @@
+// main header
+
+.wrapper {
+  background-color: var(--white);
+  width: 100%;
+  max-width: 100%;
+  height: 56px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+// bars header
+
+.header__bars {
+  background-color: transparent;
+  padding: 10px 3px 0px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+// logo header
+.logo__header {
+  margin: 20px 0px 11px 10px;
+  max-width: 90px;
+  max-height: 20px;
+  cursor: pointer;
+
+  .color_logo {
+    color: var(--white);
+  }
+}
+
+// account
+.account {
+  display: flex;
+
+  .account__avatar {
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+  }
+
+  .video__icon,
+  .notify__icon {
+    padding: 7px 10px 0px 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+
+  .account__sub__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+}
+
+// icon header login
+.icon__login {
+  margin: -4px 10px 0 7px;
+}
